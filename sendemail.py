@@ -1,8 +1,10 @@
+#Python Script that sends an email
 import smtplib
 from openpyxl import load_workbook
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+#Send email function
 def sendemail(toemail):
     #My email and password
     my_email = "gliscor2214@gmail.com"
@@ -29,7 +31,7 @@ def sendemail(toemail):
 
     server.quit()
 
-
+#grabbing emails from a file will be added here
 #wb = load_workbook(filename = 'email_list.xlsx')
 
 sendemail("danieleberhart14@gmail.com")
