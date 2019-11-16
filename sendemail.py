@@ -1,4 +1,4 @@
-#Python Script that sends an email
+d#Python Script that sends an email
 import smtplib
 from openpyxl import load_workbook
 from email.mime.multipart import MIMEMultipart
